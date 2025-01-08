@@ -93,7 +93,9 @@ class WelcomeScreen extends StatelessWidget {
               height: 20,
             ),
             CustomButton(
-              callback: () {},
+              callback: () {
+                Navigator.pushNamed(context, "/onboardingscreen");
+              },
               text: "Let's Get Started",
             ),
             SizedBox(

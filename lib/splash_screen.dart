@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:my_fashion/welcome_screen.dart';
 
 class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
