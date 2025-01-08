@@ -5,3 +5,4 @@ const brown = Color(0xFF704F38);
 const white = Color(0xFFFFFFFF);
 const golden = Colors.amberAccent;
 const grey = Colors.grey;
+const bluegrey = Colors.blueGrey;

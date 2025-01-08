@@ -21,7 +21,8 @@ class CustomButton extends StatelessWidget {
       onPressed: callback,
       style: ElevatedButton.styleFrom(
         backgroundColor: brown,
-        padding: EdgeInsets.symmetric(vertical: 10), // Adjust button height
+        padding: EdgeInsets.symmetric(
+            vertical: 11, horizontal: 11), // Adjust button height
       ),
       child: Center(
         // Center the entire content
@@ -29,7 +30,11 @@ class CustomButton extends StatelessWidget {
           mainAxisSize: MainAxisSize.min, // Keeps the row compact
           children: [
             if (icon != null)
-              Icon(icon, color: white), // Add icon only if not null
+              Icon(
+                icon,
+                color: white,
+                size: 20,
+              ), // Add icon only if not null
             if (icon != null)
               SizedBox(width: 10), // Space between icon and text
             Text(
